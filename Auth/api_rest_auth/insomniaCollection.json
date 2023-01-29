@@ -1,0 +1,99 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-01-29T06:58:27.191Z",
+  "__export_source": "insomnia.desktop.app:v2022.7.5",
+  "resources": [
+    {
+      "_id": "req_8ad44b7a5bf74208b14f620b53b806da",
+      "parentId": "wrk_0fa3ace1dae04280bda6117bcc854366",
+      "modified": 1674975336845,
+      "created": 1674973554888,
+      "url": "http://localhost:8085/api/users/4",
+      "name": "Get user",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1674973554888,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_0fa3ace1dae04280bda6117bcc854366",
+      "parentId": null,
+      "modified": 1674973546296,
+      "created": 1674973546296,
+      "name": "api_rest_auth",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_54fb507c41b74c7f9d41ea98ddd0ca28",
+      "parentId": "wrk_0fa3ace1dae04280bda6117bcc854366",
+      "modified": 1674975384934,
+      "created": 1674974091538,
+      "url": "http://localhost:8085/api/users",
+      "name": "Post user",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": 5,\n\t\"nombre\": \"Ana\",\n\t\"apellido\": \"Gil\",\n\t\"email\": \"ag@acrip.co\",\n\t\"telefono\": 31684728,\n\t\"usuario\": \"anag\",\n\t\"contraseña\": \"ana123\",\n\t\"createAt\": \"2023-01-29T09:34:02.649+00:00\"\n}\n"
+      },
+      "parameters": [],
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "authentication": {},
+      "metaSortKey": -1674540715058,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_63546d75be4b02339d9f670853228523faac961d",
+      "parentId": "wrk_0fa3ace1dae04280bda6117bcc854366",
+      "modified": 1674973546306,
+      "created": 1674973546306,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1674973546306,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_63546d75be4b02339d9f670853228523faac961d",
+      "parentId": "wrk_0fa3ace1dae04280bda6117bcc854366",
+      "modified": 1674973546311,
+      "created": 1674973546311,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_34756accf12f4add8eab7d9a5d2e6b7f",
+      "parentId": "wrk_0fa3ace1dae04280bda6117bcc854366",
+      "modified": 1674973546297,
+      "created": 1674973546297,
+      "fileName": "api_rest_auth",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
