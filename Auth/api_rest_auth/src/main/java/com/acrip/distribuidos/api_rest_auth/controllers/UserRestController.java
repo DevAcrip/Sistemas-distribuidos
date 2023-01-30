@@ -29,5 +29,4 @@ public class UserRestController {
 		objUser = userService.findById(prmId);		
 		return objUser;
 	}
-
 }
