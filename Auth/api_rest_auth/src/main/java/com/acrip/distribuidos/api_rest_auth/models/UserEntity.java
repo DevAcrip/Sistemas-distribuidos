@@ -12,10 +12,8 @@ public class UserEntity {
 	private String contraseña;	
 	private Date createAt; 
     
-    public UserEntity() {
-    }
-    public UserEntity(Integer id, String nombre, String apellido, String email, Integer telefono, String usuario,
-            String contraseña, Date createAt) {
+    public UserEntity() {}
+    public UserEntity(Integer id, String nombre, String apellido, String email, Integer telefono, String usuario, String contraseña, Date createAt) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
